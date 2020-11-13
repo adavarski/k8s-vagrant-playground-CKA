@@ -25,11 +25,11 @@ You will start a two node cluster on your machine, one master and one worker.
 
 For this you need to install VirtualBox and vagrant, then: go to relative cluster i.e. docker based or containerd based and boot up
 ```
-./up.sh
+$ ./up.sh
 ```
 ## Save the state
 ```
-vagrant suspend
+$ vagrant suspend
 ```
 Examples (and checks):
 
@@ -208,7 +208,6 @@ management    m-3cc-runner-5f9d7d78b9-rgmk9          1/1     Running   0        
 management    m-3cc-runner-heavy-76c7849ff5-blq8m    1/1     Running   0          4m14s   10.44.0.20        worker1        <none>           <none>
 management    m-3cc-runner-heavy-76c7849ff5-jh7gn    1/1     Running   0          4m14s   10.44.0.19        worker1        <none>           <none>
 management    web-server                             1/2     Error     0          4m15s   10.44.0.11        worker1        <none>           <none>
-
 
 ```
 
